@@ -38,14 +38,14 @@ public class Main
         String text = obj.nextLine();
         System.out.println("Enter pattern ");
         String pattern = obj.nextLine();
-        int count=0;
+        int cnt=0;
         char str2[] = pattern.toCharArray();
         for(int i=0, j=pattern.length(); j<=text.length(); i++, j++)
         {
             char str1[] = text.substring(i, j).toCharArray();
             if (areAnagram(str1, str2))
-                count++;
+                cnt++;
         }
-        System.out.println(count);
+        System.out.println(cnt);
     }
 }
