@@ -1,7 +1,7 @@
 import java.util.*;
 //6 milliseconds
 
-public class Main {
+public class Question5_part2 {
 
     public static void main(String[] args) {
         
